@@ -8,8 +8,7 @@ interface PokemonInfoProps {
 
 const PokemonInfo = ({ url, name }: PokemonInfoProps) => (
   <div className="PokemonInfo">
-    <div>Name: {name}</div>
-    <div>Url: {url}</div>
+    <div>{url}</div>
   </div>
 );
 
